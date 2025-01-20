@@ -1,0 +1,18 @@
+.profile {
+    padding: 20px;
+}
+.profile-header {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 22px;
+}
+.profile-sub-header {
+    color: #585d64;
+}
+.profile-pic {
+    width: 100px;
+    border-radius: 50px;
+    border: 1px solid #e1e4ec;
+}
+#profile-pic {
+    display: none;
+}

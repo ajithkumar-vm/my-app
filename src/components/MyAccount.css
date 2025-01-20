@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.my-account {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 64px 1fr;
+}
+.account-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #7fba22;
+    font-family: cursive;
+    color: white;
+}
+
+.account-info {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 25% 1fr;
+}
+.account-nav {
+    justify-self: self-start;
+    align-self: self-start;
+    font-size: 22px;
+    font-family: cursive;
+    padding-top: 50px;
+    color: #8c9091;
+    border-right: 1px solid #e1e4ec;
+    width: 100%;
+    height: 100%;
+}
+.account-details {
+    display: grid;
+}
+.side-nav {
+    padding:10px 20px;
+    cursor: pointer;
+    width: fit-content;
+    padding-left: 50px;
+    width: 100%;
+}
+.side-nav img {
+    width: 40px;
+    margin-right: 10px;
+}
+.side-nav.selected {
+    background-color: #e8effd;
+    padding-right: 50px;
+    border-right: 2px solid #245bca;
+}
